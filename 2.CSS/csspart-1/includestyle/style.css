@@ -1,0 +1,25 @@
+/* h1 {
+    color: red;
+    background-color: gray;
+}
+
+p {
+    color: blue;
+}
+
+button {
+    color: blueviolet;
+} */
+h2 {
+    color: #ff00ff;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,102 @@
+* {
+    font-family: "Courier New";
+}
+
+h3 {
+    color: purple;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: green;
+    color: white;
+}
+
+/* descendant selector */
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li {
+    color: hotpink;
+}
+
+/* sibling combinator */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* child combinator */
+div > input {
+    background-color: darksalmon;
+}
+
+/* attribute selector */
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: green;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+
+/* Pseudo Class */
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+button:active {
+    background-color: darkmagenta;
+}
+
+/* Pseudo elements */
+h1::first-letter {
+    color: black;
+}
+
+p::first-line {
+    color: red;
+}
+
+p::selection {
+    background-color: yellowgreen;
+}
+
+/* cascading priority is
+given to the last selector 
+if the selector is same*/
+h3 {
+    background-color: green;
+}
+
+h3 {
+    background-color: blue;
+}
+
+/* selector specificity
+1. id > class > element
+2. more selectors > less selectors
+3. if specificit same --> cascading rule apply */
